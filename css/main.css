@@ -1,0 +1,16 @@
+body {
+	background: #222222;
+}
+
+.game-wrapper {
+	width: 100%;
+	height: 800px;
+}
+
+#game-div {
+	margin: 0 auto;
+}
+
+#game-div canvas {
+	margin: 0 auto;
+}
