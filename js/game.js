@@ -39,6 +39,6 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function onDown(){
-	console.log( 'click' );
+function onDown(sprite, pointer){
+	game.add.sprite(game.world.centerX, game.world.centerY, 'star');
 }
